@@ -36,6 +36,10 @@ nnoremap <leader>0 <cmd>tablast<return>
 nmap <tab> <cmd>tabnext<return>
 nmap <s-tab> <cmd>tabprevious<return>
 
+" Change indent level in insert mode with `Tab` and `Shift-Tab` respectively
+inoremap <tab> <c-t>
+inoremap <s-tab> <c-d>
+
 " Tabularize
 if exists(":Tabularize") | noremap <leader><tab> :Tabularize | endif
 
