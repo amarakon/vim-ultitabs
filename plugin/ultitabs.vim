@@ -14,7 +14,7 @@ function! Tabclose(...)
 			for tab in reverse(sort(copy(a:tabs)))
 				execute "tabclose" tab
 			endfor
-		endfunction!
+		endfunction
 
 		if a:1[1] == '-' | call CloseTabs(range(a:1[0], a:1[2]))
 		else
