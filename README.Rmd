@@ -39,12 +39,6 @@ The default `Leader` key is `\`, but you can change it using
 `map mapleader = ','` as an example.
 If you use the [Tabular](https://github.com/godlygeek/tabular) plugin,
 `<Leader><Tab>` is mapped to `Tabularize`.
-Finally, in insert mode, the `Tab` key is always used for indentation instead of
-tabulation.
-This means that even if you press `Tab` in the middle or end of a line, the
-indent level will be increased.
-Likewise, pressing `Shift-Tab` in the middle or end of a line will decrease the
-indent level.
 
 ## Tab numbers
 
