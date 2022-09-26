@@ -14,11 +14,11 @@ Additionally, it automatically numbers tabs if you use vim-airline.
 
 # Changes
 
-## Tabclose
+## TabClose
 
-The `Tabclose` command is added which is a better version of Vim's original
+The `TabClose` command is added which is a better version of Vim's original
 `tabclose`.
-`tabclose` is abbreviated to `Tabclose`, so you do not have to worry about your
+`tabclose` is abbreviated to `TabClose`, so you do not have to worry about your
 muscle memory.
 Anyways, it adds plenty of options that I believe should be included by default
 in Vim.

@@ -1,4 +1,4 @@
-function! Tabclose(...)
+function! TabClose(...)
 	if a:0 == 0 | tabonly
 	" Taken from https://github.com/vim-scripts/tabops to avoid dependence
 	elseif index(['<', 'l', 'left'], a:1) >= 0
@@ -25,8 +25,8 @@ function! Tabclose(...)
 	endif
 endfunction
 
-command -nargs=* Tabclose call Tabclose(<f-args>)
-cabbrev tabclose Tabclose
+command -nargs=* TabClose call TabClose(<f-args>)
+cabbrev tabclose TabClose
 
 " Go to tab by number
 for i in range(1, 9) | execute "nnoremap <leader>".i." ".i."gt" | endfor

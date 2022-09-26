@@ -3,14 +3,14 @@ UltiTabs
 
 ## Contents
 
--   [Introduction](#introduction)
--   [Changes](#changes)
-    -   [Tabclose](#tabclose)
-    -   [Keybindings](#keybindings)
-    -   [Tab numbers](#tab-numbers)
--   [Installation](#installation)
-    -   [Vim](#vim)
-    -   [Neovim](#neovim)
+-   <a href="#introduction" id="toc-introduction">Introduction</a>
+-   <a href="#changes" id="toc-changes">Changes</a>
+    -   <a href="#tabclose" id="toc-tabclose">TabClose</a>
+    -   <a href="#keybindings" id="toc-keybindings">Keybindings</a>
+    -   <a href="#tab-numbers" id="toc-tab-numbers">Tab numbers</a>
+-   <a href="#installation" id="toc-installation">Installation</a>
+    -   <a href="#vim" id="toc-vim">Vim</a>
+    -   <a href="#neovim" id="toc-neovim">Neovim</a>
 
 ## Introduction
 
@@ -22,10 +22,10 @@ tabs if you use vim-airline.
 
 ## Changes
 
-### Tabclose
+### TabClose
 
-The `Tabclose` command is added which is a better version of Vim’s
-original `tabclose`. `tabclose` is abbreviated to `Tabclose`, so you do
+The `TabClose` command is added which is a better version of Vim’s
+original `tabclose`. `tabclose` is abbreviated to `TabClose`, so you do
 not have to worry about your muscle memory. Anyways, it adds plenty of
 options that I believe should be included by default in Vim.
 
